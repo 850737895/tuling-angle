@@ -20,4 +20,8 @@ public class UserServiceImpl {
         }
         System.out.println("模拟执行insertUser操作");
     }
+
+    public void deleteById(Integer userId) {
+        System.out.println("userId");
+    }
 }
