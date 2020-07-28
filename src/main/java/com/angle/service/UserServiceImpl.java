@@ -15,9 +15,9 @@ public class UserServiceImpl {
     public void insertUser(User user) {
 
         System.out.println("模拟执行insertUser操作");
-
         if(null != user) {
             throw new IllegalArgumentException("参数为空");
         }
+        System.out.println("模拟执行insertUser操作");
     }
 }
