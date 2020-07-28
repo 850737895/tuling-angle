@@ -9,4 +9,11 @@ package com.angle.entity;
  * @date 2020/7/28 15:49
  */
 public class User {
+
+    private Integer userId;
+
+    private String userName;
+
+    private String email;
+
 }
